@@ -27,7 +27,7 @@ export default function App() {
             <main style={{ padding: '20px' }}>
                 <Routes>
                     <Route path="/" element={
-                        <ErrorBoundary>  {/* Локальний Error Boundary для TODO */}
+                        <ErrorBoundary>
                             <Home />
                         </ErrorBoundary>
                     } />
